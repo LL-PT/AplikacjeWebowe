@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang=pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizytówka Litwin Laura</title>
+</head>
+<body>
+    <header class="naglowek">
+        <div class="naglowek_tekst">
+            <h1>Laura Litwin</h1>
+            <p class="podtytul">Technik programista, klasa 5</p>
+        </div>
+    </header>
+    <main>
+
+        <img class="avatar" src="" alt="avatar">
+        <section id="AboutMe">
+            <h2>O mnie</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officiis assumenda consequatur delectus alias hic! Eligendi facere reprehenderit sunt molestias itaque provident culpa repudiandae officia sit! Unde repudiandae porro necessitatibus.</p>
+        </section>
+
+        <section id="Skills">
+            <ul class="SkillList">
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+                <li>Skill 4</li>
+            </ul>
+
+        </section>
+
+        <section id="Contact">
+            <h2>Kontakt</h2>
+            <form id="formularz">
+                <div class="pole">
+                    <label for="name">Imię i Nazwisko</label>
+                    <input type="text" id="name" name="FormName">
+                    <p class="Error" id="ErrorName"></p>
+                </div>
+
+                 <div class="pole">
+                    <label for="email">Adres e-mail</label>
+                    <input type="text" id="email" name="FormEmail">
+                    <p class="Error" id="ErrorEmail"></p>
+                </div>
+
+                <div class="pole">
+                    <label for="name">Temat</label>
+                    <select id="topic" name="FormTopic">
+                        <option value=""> -- Wybierz temat --</option>
+                        <option value="Collaboration">Propozycja współpracy</option>
+                        <option value="Question">Pytanie o projekt</option>
+                        <option value="Different">Inne</option>
+                    </select>
+                    <p class="Error" id="ErrorName"></p>
+                </div>
+
+                <div class="pole">
+                    <label for="message">Adres e-mail</label>
+                    <textarea id="message" name="FormMessage" rows="5"></textarea>
+                    <p class="Error" id="ErrorMessage"></p>
+                </div>
+
+                <button type="submit" class="button">Wyślij wiadomość</button>
+                <div id="podziekowania" class="podziekowania" hidden>
+                    <h3>Dziękuję za wiadomość</h3>
+                    <p id="podziekowania-tresc"></p>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="stoopka"></footer>
+        <p>Litwin Laura</p>
+        <a href="https://github.com/LL-PT/AplikacjeWebowe">GitHub</a>
+        <a href="mailto:office@zsl.poznan.pl">office@zsl.poznan.pl</a>
+    <script src="mian.js"></script>
+</body>
+</html>
