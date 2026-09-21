@@ -15,14 +15,14 @@
     </header>
     <main>
 
-        <img class="avatar" src="" alt="avatar">
-        <section id="AboutMe">
+        <img class="avatar" src="https://i.pinimg.com/474x/33/82/72/33827232590a7f9386f24a03c81b2b5f.jpg?nii=t" alt="avatar">
+        <section id="O-mnie">
             <h2>O mnie</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officiis assumenda consequatur delectus alias hic! Eligendi facere reprehenderit sunt molestias itaque provident culpa repudiandae officia sit! Unde repudiandae porro necessitatibus.</p>
         </section>
 
-        <section id="Skills">
-            <ul class="SkillList">
+        <section id="Umiejetnosci">
+            <ul class="Umiejetnosci">
                 <li>Skill 1</li>
                 <li>Skill 2</li>
                 <li>Skill 3</li>
@@ -31,39 +31,39 @@
 
         </section>
 
-        <section id="Contact">
+        <section id="Kontak">
             <h2>Kontakt</h2>
             <form id="formularz">
                 <div class="pole">
-                    <label for="name">Imię i Nazwisko</label>
-                    <input type="text" id="name" name="FormName">
-                    <p class="Error" id="ErrorName"></p>
+                    <label for="imie">Imię i Nazwisko</label>
+                    <input type="text" id="imie" name="imie">
+                    <p class="blad" id="blad-imie"></p>
                 </div>
 
                  <div class="pole">
                     <label for="email">Adres e-mail</label>
-                    <input type="text" id="email" name="FormEmail">
-                    <p class="Error" id="ErrorEmail"></p>
+                    <input type="text" id="email" name="email">
+                    <p class="blad" id="blad-email"></p>
                 </div>
 
                 <div class="pole">
-                    <label for="name">Temat</label>
-                    <select id="topic" name="FormTopic">
+                    <label for="temat">Temat</label>
+                    <select id="temat" name="temat">
                         <option value=""> -- Wybierz temat --</option>
-                        <option value="Collaboration">Propozycja współpracy</option>
-                        <option value="Question">Pytanie o projekt</option>
-                        <option value="Different">Inne</option>
+                        <option value="kolaboracja">Propozycja współpracy</option>
+                        <option value="pytania">Pytanie o projekt</option>
+                        <option value="inne">Inne</option>
                     </select>
-                    <p class="Error" id="ErrorName"></p>
+                    <p class="blad" id="blad-temat"></p>
                 </div>
 
                 <div class="pole">
-                    <label for="message">Adres e-mail</label>
-                    <textarea id="message" name="FormMessage" rows="5"></textarea>
-                    <p class="Error" id="ErrorMessage"></p>
+                    <label for="wiadomosc">Adres e-mail</label>
+                    <textarea id="wiadomosc" name="wiadomosc" rows="5"></textarea>
+                    <p class="blad" id="blad-wiadomosc"></p>
                 </div>
 
-                <button type="submit" class="button">Wyślij wiadomość</button>
+                <button type="submit" class="przycisk">Wyślij wiadomość</button>
                 <div id="podziekowania" class="podziekowania" hidden>
                     <h3>Dziękuję za wiadomość</h3>
                     <p id="podziekowania-tresc"></p>
